@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './components/FirstComponent'
+import FirstFunComponent from './components/FirstFunComponent'
 
 function App() {
   return (
     <div className="App">
-      <h1>This is my first App...</h1>
+      <FirstComponent />
+      <FirstFunComponent />
     </div>
   );
 }
